@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@lib/*": ["lib/*"],
+      "pandacss/*": ["pandacss/*"]
+    }
+  },
+  "include": ["vite.config.ts", "alias.ts"]
+}
