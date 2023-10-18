@@ -23,11 +23,11 @@
     /* Paths */
     "baseUrl": "./",
     "paths": {
-      "@src/*": ["src/*"],
-      "@lib/*": ["lib/*"],
+      "@src/*": ["./src/*"],
+      "@lib/*": ["./lib/*"],
       "pandacss/*": ["pandacss/*"]
     }
   },
-  "include": ["src", "pandacss"],
+  "include": ["src", "*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
